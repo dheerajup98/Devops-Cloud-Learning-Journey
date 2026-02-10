@@ -25,5 +25,8 @@ This repository documents my hands-on learning and practical exploration in Clou
 ## 🎯 Goal
 To become a **Cloud & DevOps Engineer** by building, breaking, fixing, automating, and documenting real systems while following DevOps best practices.
 
+## Status
+Learning in public 📚 | Updating regularly
+
 
 
