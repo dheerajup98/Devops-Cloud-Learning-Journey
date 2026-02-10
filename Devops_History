@@ -1,7 +1,6 @@
 ## 1️⃣ History of DevOps (how it all started)
 
 🕰 Before DevOps (around 2000–2008)
-
 Software companies worked in silos:
 
 Developers
@@ -15,21 +14,13 @@ Operations / SysAdmins
 ## 🚨 The problem
 
 Deployments took weeks or months
-
 Too many handoffs
-
 Production failures
 
 ## 📌 The term “DevOps”
-
 Coined around 2009
-
 From Dev + Ops
 
-Popularized by:
-
 Agile movement
-
 Continuous Delivery
-
 Cloud computing
