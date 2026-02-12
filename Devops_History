@@ -5,7 +5,7 @@
 ### 🔹 Before DevOps (Pre-2008)
 Software development and IT operations worked in **separate silos**:
 
-- Developers wrote code → “works on my machine”
+- Developers wrote code → “works on my machine"
 - Operations teams deployed & maintained servers → “don’t break production”
 
 #### Problems:
