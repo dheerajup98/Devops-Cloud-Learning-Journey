@@ -140,8 +140,3 @@ DevOps emerged with:
 - Infrastructure as Code
 - Containerization (Docker)
 - Orchestration (Kubernetes)
-
-
-
-# 🔄 Modern DevOps Workflow
-
