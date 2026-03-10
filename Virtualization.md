@@ -130,14 +130,69 @@ Virtual Machine
 
 This entire process typically happens within milliseconds.
 
----
 
-## Summary
+Today I learned how cloud infrastructure is created in AWS and how DevOps engineers automate this process using Infrastructure as Code (IaC).
 
-Cloud computing works by combining:
+## Creating a Virtual Machine in AWS
 
-- Physical servers
-- Virtualization
-- Hypervisors
-- Large-scale data centers
-- Automated infrastructure management
+A virtual machine can be created manually using the AWS Management Console through the **Amazon EC2** service.
+
+Basic steps:
+1. Login to AWS Console
+2. Navigate to EC2
+3. Click **Launch Instance**
+4. Choose AMI (Operating System)
+5. Select Instance Type
+6. Configure Storage, Network, and Security Group
+7. Launch Instance
+
+Once launched, AWS allocates compute resources in its data center and assigns details such as:
+- Instance ID
+- Public IP Address
+- Private IP Address
+- Instance Status
+
+## Infrastructure Automation
+
+Instead of creating infrastructure manually, DevOps engineers automate the process using tools such as:
+
+- **AWS CLI** – Manage AWS services from the command line
+- **AWS CloudFormation (CFT)** – Define infrastructure using YAML/JSON templates
+- **AWS CDK** – Define infrastructure using programming languages
+- **Terraform** – Popular Infrastructure as Code tool used for multi-cloud environments
+
+## AWS API Concept
+
+All these tools ultimately interact with **AWS APIs**.
+
+When a request is sent to create a resource:
+
+1. **Authentication** – AWS verifies the identity of the user or service making the request.
+2. **Authorization** – AWS checks permissions using IAM policies.
+3. **API Processing** – AWS processes the request in its data centers.
+4. **Resource Provisioning** – The VM or resource is created and details are returned.
+
+Example response may include:
+- Instance ID
+- Public IP address
+- Instance state
+- Networking configuration
+
+## Hybrid Cloud Model
+
+Many companies use a **Hybrid Cloud** architecture, which combines:
+
+- On-premise infrastructure (private data center)
+- Public cloud services (AWS)
+
+This allows organizations to achieve:
+- Better scalability
+- Improved security
+- Flexible workload management
+
+## Key Takeaway
+
+Behind every click in the AWS console, there is an **API call** that communicates with AWS services to provision infrastructure.
+
+Automation tools make this process faster, scalable, and reliable.
+
